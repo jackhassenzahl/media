@@ -15,9 +15,9 @@ from savify.utils import PathHolder
 # You can find more information in the savify documentation
 # https://github.com/LaurenceRawlings/savify 
 
-# Add your own paths in path.txt
 # Works with linux and wsl. cannot get ffmpeg to work on windows. have not tested on mac.
 
+# Add your own paths in path.txt or create a list using the PATH variable
 PATHLIST = open("paths.txt", "r")
 PATH = PATHLIST.read().split("\n")
 
