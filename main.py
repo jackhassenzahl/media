@@ -16,15 +16,13 @@ from savify.utils import PathHolder
 # https://github.com/LaurenceRawlings/savify 
 
 # Add your own paths in path.txt
-# Works with linux, wsl, windows, and osx
+# Works with linux and wsl. cannot get ffmpeg to work on windows. have not tested on mac.
 
 PATHLIST = open("paths.txt", "r")
 PATH = PATHLIST.read().split("\n")
 
 VIDEO = ["avi", "flv", "gif", "mkv", "mov", "mp4", "webm", "aiff", "mka", "ogg"]
 AUDIO = ["aac", "alac", "flac", "m4a", "mp3", "opus", "vorbis", "wav"]
-
-s = Savify()
 
 def SAVE_PATH():
     global save_path

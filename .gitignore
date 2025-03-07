@@ -1,6 +1,7 @@
 /.DS_Store
 /.cache
 /.media
+/__pycache__
 /music
 /paths.txt
 /videos
